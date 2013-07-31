@@ -18,7 +18,9 @@ void setup()  {
 
 void loop()  { 
   // set the brightness of pin 9:
-  analogWrite(9, brightness);    
+  analogWrite(9, brightness); 
+  delay(500);
+  
 
   // change the brightness for next time through the loop:
   brightness = brightness + fadeAmount;
